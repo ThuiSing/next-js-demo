@@ -1,0 +1,21 @@
+.bg {
+  background-color: rgb(34, 31, 31);
+  color: rgb(218, 207, 207);
+  overflow: hidden;
+}
+.bg ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg ul li {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  display: inline-block;
+  transition: 1s ease-in-out;
+}
+.bg ul li :hover {
+  color: rgb(255, 255, 255);
+}
